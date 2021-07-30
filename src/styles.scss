@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+$body: rgba(210, 134, 255, 0.25);
+
+@font-face {
+  font-family: Karma;
+  src: url("./assets/fonts/Karma/Karma-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url("./assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    background-color: $body;
+  }
+}
+
